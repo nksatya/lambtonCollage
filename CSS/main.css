@@ -1,0 +1,189 @@
+/*
+Author: Satya Nilamegam Kumaran
+Student ID: C0886405
+*/
+/*Style section for Smartphones/Mobile devices*/
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    nav {
+        background-image: linear-gradient(to right, #666, #fff);
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: black;
+    }
+
+    #name {
+        font-size: xx-large;
+        text-align: center;
+        margin: 1%;
+        font-family: sans-serif;
+    }
+
+    #profile_pic {
+        height: 100%;
+        width: 100%;
+    }
+
+    #footer {
+        background-image: linear-gradient(to right, #666, #fff);
+        display: flex;
+        justify-content: center;
+    }
+
+    #footer a {
+        padding-top: 0.7%;
+    }
+}
+
+/*Style section for Tablets*/
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    nav {
+        background-image: linear-gradient(to right, #666, #fff);
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: black;
+    }
+
+    #name {
+        font-size: xx-large;
+        text-align: center;
+        margin: 1%;
+        font-family: sans-serif;
+    }
+
+    #profile_pic {
+        height: 100%;
+        width: 100%;
+    }
+
+    #footer {
+        background-image: linear-gradient(to right, #666, #fff);
+        display: flex;
+        justify-content: center;
+    }
+
+    #footer a {
+        padding-top: 0.7%;
+    }
+}
+
+/*Style section for Desktop/large screens*/
+@media only screen and (min-width: 769px) {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    #main-section {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    #main-section figure {
+        width: fit-content;
+    }
+
+    nav {
+        background-image: linear-gradient(to right, #666, #fff);
+    }
+
+    nav li {
+        float: left;
+    }
+
+    nav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    nav li a:hover {
+        background-color: black;
+    }
+
+    #name {
+        font-size: xx-large;
+        text-align: center;
+        margin: 1%;
+        font-family: sans-serif;
+    }
+
+    #more-links {
+        list-style-type: circle;
+        padding-left: 2%;
+    }
+
+    #more-links li a {
+        text-decoration: none;
+    }
+
+    #more-links li a:hover {
+        text-decoration: none;
+    }
+
+    #more-links li a:active {
+        text-decoration: none;
+    }
+
+    #more-links li a:link {
+        text-decoration: none;
+    }
+
+    #profile_pic {
+        height: 100%;
+        width: 100%;
+    }
+
+    #footer {
+        background-image: linear-gradient(to right, #666, #fff);
+        display: flex;
+        justify-content: center;
+    }
+
+    #footer a {
+        padding-top: 0.7%;
+    }
+}
